@@ -1,0 +1,150 @@
+
+h1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  .column{
+    font-family: sans-serif;
+  }
+
+ .navbar{
+position: fixed;
+width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("website.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+.hero-section {
+  background: url("https://images.pexels.com/photos/1375807/pexels-photo-1375807.jpeg?cs=srgb&dl=bowl-candy-chocolate-1375807.jpg&fm=jpg") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  
+  display: -ms-flexbox;
+  display: flex;
+  
+        
+          align-items: center;
+        
+        
+        justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: rgb(243, 18, 175);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(238, 227, 236, 0.959);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.item2{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+
+
+footer a {
+  padding: 20px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.footer{
+  float: right;
+}
